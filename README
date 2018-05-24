@@ -1,0 +1,24 @@
+Name: Keerti Kareti
+
+
+The Hangman AI project contains the following files:
+
+
+    	    - hang.py: Code written in python to implement hangman AI.
+	    - words.txt: A library of commonly used words used by hang.py to
+	      		 determine what characters to choose during the game.
+	    - README: A project description.
+
+
+
+Build and Run details:
+
+My hangman AI is written in python, and run using Python 3.6.5. The code relies
+on the requests library to send to and receive from the server http requests.
+The string, time, and random libraries are also required for this AI to run.
+The code is executed using the python3 command:
+
+$ python3 hang.py
+
+I have not given write permissions to hang.py, so simply trying to run it on
+the command line with ./hang.py will not work.
