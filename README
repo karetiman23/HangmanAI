@@ -16,9 +16,23 @@ Build and Run details:
 My hangman AI is written in python, and run using Python 3.6.5. The code relies
 on the requests library to send to and receive from the server http requests.
 The string, time, and random libraries are also required for this AI to run.
-The code is executed using the python3 command:
+The code is executed using the python3 command if run on the linux departmental
+servers:
 
 $ python3 hang.py
 
+You may also run this program using the Windows 10 command line, assuming you
+downloaded python 3.6.5. To run with the Windows 10 command line, you must use
+the py command.
+
+$ py hang.py
+
+In either case, you must enter the directory where hang.py is located, and make
+sure than the file words.txt is in the same directory as hang.py, otherwise the
+program will not run properly. When you wish to exit, use the interrupt command
+(^C).
+
 I have not given write permissions to hang.py, so simply trying to run it on
-the command line with ./hang.py will not work.
+the command line with ./hang.py will not work. Futhermore the code relies on
+properties of python version 3 specifically. Using an earlier version of python
+will not work.
