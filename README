@@ -32,7 +32,7 @@ sure than the file words.txt is in the same directory as hang.py, otherwise the
 program will not run properly. When you wish to exit, use the interrupt command
 (^C).
 
-I have not given write permissions to hang.py, so simply trying to run it on
-the command line with ./hang.py will not work. Futhermore the code relies on
+I have not given executable permissions to hang.py, so simply trying to run it
+on the command line with ./hang.py will not work. Futhermore the code relies on
 properties of python version 3 specifically. Using an earlier version of python
 will not work.
